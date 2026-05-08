@@ -23,11 +23,11 @@ import { Component } from '@angular/core';
         </h1>
 
         <p class="text-xl sm:text-2xl md:text-3xl text-gray-400 font-light mb-6 tracking-wide">
-          Développeur <span class="text-white font-semibold">Full Stack</span> 
+          Développeur <span class="text-white font-semibold">Full Stack</span> &amp; <span class="text-white font-semibold">Chef de projet</span>
         </p>
 
         <p class="text-gray-500 text-base sm:text-lg max-w-xl mx-auto mb-10 leading-relaxed">
-          Je conçois et développe des applications web modernes, performantes et accessibles — du backend à l'interface.
+          Je recueille le besoin, définis le cahier des charges, conçois et développe des applications web modernes — et les livre.
         </p>
 
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4">

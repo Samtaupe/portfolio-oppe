@@ -7,7 +7,7 @@ import { Component, signal } from '@angular/core';
     <nav class="fixed top-0 w-full z-50 bg-[#0a0a0a]/95 backdrop-blur-sm border-b border-gray-800/50">
       <div class="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
         <a href="#hero" class="text-primary font-bold text-xl tracking-tight hover:text-primary-dark transition-colors">
-          Thomas<span class="text-white">.</span>
+          <span class="text-white">Thomas</span> OPPE
         </a>
 
         <ul class="hidden md:flex items-center gap-8">

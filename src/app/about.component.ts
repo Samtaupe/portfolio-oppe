@@ -8,19 +8,10 @@ import { Component } from '@angular/core';
       <div class="max-w-6xl mx-auto px-4 sm:px-6">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
-          <!-- Left: Photo placeholder -->
           <div class="flex justify-center lg:justify-start">
             <div class="relative">
-              <!-- Photo container -->
-              <div class="w-72 h-72 sm:w-80 sm:h-80 rounded-2xl bg-bg-card border-2 border-primary/30 overflow-hidden flex items-center justify-center">
-                <div class="text-center">
-                  <div class="w-24 h-24 rounded-full bg-primary/20 border-2 border-primary/40 flex items-center justify-center mx-auto mb-3">
-                    <svg class="w-12 h-12 text-primary/60" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/>
-                    </svg>
-                  </div>
-                  <p class="text-gray-600 text-sm">Photo à venir</p>
-                </div>
+              <div class="w-72 sm:w-80 rounded-2xl bg-bg-card border-2 border-primary/30 overflow-hidden">
+                <img src="profil.png" alt="Photo de profil" class="w-full h-full object-contain">
               </div>
               <div class="absolute -bottom-3 -right-3 w-full h-full rounded-2xl border-2 border-primary/20 -z-10"></div>
             </div>
@@ -28,17 +19,16 @@ import { Component } from '@angular/core';
 
           <div>
             <p class="section-subtitle">À propos de moi</p>
-            <h2 class="section-title">Développeur passionné par les<br><span class="text-primary">solutions innovantes</span></h2>
+            <h2 class="section-title">Développeur <span class="text-primary">Full Stack</span><br>&amp; Chef de projet</h2>
             <div class="section-divider"></div>
 
             <p class="text-gray-400 leading-relaxed mb-4">
-              Développeur Full Stack avec une forte appétence pour les technologies modernes du web.
-              Je conçois des applications robustes, scalables et performantes en mettant l'accent sur
-              la qualité du code et l'expérience utilisateur.
+              Développeur Full Stack et chef de projet, je couvre l'intégralité du cycle d'un projet informatique :
+              recueil du besoin, rédaction du cahier des charges, conception, développement, présentation et livraison.
             </p>
             <p class="text-gray-400 leading-relaxed mb-8">
-              Curieux et autonome, j'aime relever de nouveaux défis techniques et m'investir dans des
-              projets qui ont du sens. Toujours à la recherche de nouvelles pratiques et de nouvelles technologies.
+              Curieux et autonome, j'aime autant écrire du code propre et performant que piloter un projet avec méthode.
+              Je m'investis dans des solutions qui ont du sens, en gardant toujours l'utilisateur final au centre.
             </p>
 
             <!-- Info grid -->
